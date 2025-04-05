@@ -1,0 +1,35 @@
+{
+  "name": "design-patterns-and-solid-principles-with-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "husky:setup": "npx husky init",
+    "lint": "eslint .",
+    "prettier": "prettier --check \"**/*.{js,jsx,json,html,css,ts,tsx,yml,yaml}\"",
+    "prettier:write": "prettier --write \"**/*.{js,jsx,json,html,css,ts,tsx,yml,yaml}\" --ignore-unknown",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "Design Patterns",
+    "Solid Principles",
+    "Design Patterns and Solid Principles with TypeScript"
+  ],
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "description": "Repository for design patterns and solid principles with TypeScript",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.29.0"
+  }
+}
